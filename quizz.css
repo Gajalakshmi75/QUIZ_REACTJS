@@ -1,0 +1,81 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+
+}
+.app{
+    background-color: rosybrown;
+    width:600px;
+    min-height: 300px;
+    height: min-content;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    padding-left: 20px;
+}
+.ques-sec{
+    width: 100%;
+    position: relative;
+}
+.ques-count{
+    margin-bottom: 20px;
+}
+.ques-count span{
+    font-size: 30px;
+}
+.ques-text{
+    margin-bottom: 14px;
+}
+.ans-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.score-sec{
+    text-align: center;
+}
+button{
+    width:100%;
+    font-size: 16px;
+    color:#ffffff;
+    background-color: rosybrown;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid rgb(140, 161, 161);
+    cursor: pointer;
+}
+.correct{
+    background-color: #2f922f;
+}
+button:hover{
+    background-color: rgb(150, 148, 148);
+}
+button:focus{
+    outline: none;
+}
+button svg {
+    margin-top: 5px;
+}
+.actions{
+    display: flex;
+    margin-top: 15px;
+}
+.actions button{
+    background-color: cadetblue;
+    justify-content: center;
+}
+.actions button:hover{
+    background-color: rgb(233, 204, 204);
+    color:white;
+    border: 1px solid rosybrown;
+}
